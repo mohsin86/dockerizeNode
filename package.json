@@ -6,9 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "",
+  "author": "Rock on the fly <mohsin.cse01@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "dockrize nod app adn JWT implementaiton",
   "dependencies": {
     "aws-sdk": "^2.556.0",
     "express": "^4.17.1",
