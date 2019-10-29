@@ -24,8 +24,10 @@ docker run -p 8081:8081 dockrize-jwt .
 ```
 The Problem i face
 ------
-1. Got the "port is already allocated fre the port". You need to make sure that the previous container you launched is killed, before launching a new one that uses the same port.
-for solving i followed
+1. Error: Got the "port is already allocated fre the port" message. <br>
+   Cause: You need to make sure that the previous container you launched is killed, before launching a new one that uses the same port.
+   <br>
+   Solve:  for solving i followed
 ```
 docker container ls
 ```
