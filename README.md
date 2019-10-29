@@ -1,8 +1,9 @@
-Dockrize node.js and Create Secure (JWT) Token Based Authentication API with Node.js
+Dockrize node.js and Building Serverless App in Node.js with AWS Lambda
 =============
 
 The main idea off this project, how to dockrize a node.js app and Create Secure (JWT) Token Based Authentication API
 
+JWT is used for authentication and they can also be used for sharing information, most of jwt are signed using a public key and a private key, therefore, it is very difficult to tamper with these token. Jwt has three parts: head, body and signature, each separated by “dot(.)”.
 
 Installation
 -----------
