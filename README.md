@@ -1,7 +1,7 @@
 Dockrize node.js and Building Serverless App in Node.js with AWS Lambda
 =============
 
-The main idea off this project, how to dockrize a node.js app and Create Secure (JWT) Token Based Authentication API
+The main idea off this project, how to dockrize a node.js app and  build a simple Serverless application using AWS Lambda
 
 Installation
 -----------
