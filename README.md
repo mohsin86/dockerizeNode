@@ -38,7 +38,7 @@ docker rm -f <container ID>
 
 Sharing Docker image
 ===================
-1. go up at hub.docker.com
+1. go to at hub.docker.com
 2. Build the image again using your Docker Hub credentials:
 ```
 docker build -t [USERNAME]/dockrize-jwt .
