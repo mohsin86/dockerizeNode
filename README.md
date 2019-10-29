@@ -35,3 +35,25 @@ for stopping container run follwoing command with container id
 ```
 docker rm -f <container ID>
 ```
+
+Sharing Docker image
+===================
+1. gn up at hub.docker.com
+2. Build the image again using your Docker Hub credentials:
+```
+docker build -t [USERNAME]/dockrize-jwt .
+```
+3. Log in to Docker Hub with your credentials:
+```
+docker login
+```
+4. Push the image to Docker Hub:
+```
+docker push [USERNAME]/dockrize-jwt
+```
+
+You can now use the image on any server or PC with Docker installed:
+
+```
+docker run [USERNAME]/dockrize-jwt
+```
