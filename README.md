@@ -27,11 +27,11 @@ The Problem i face
 1. Error: Got the "port is already allocated fre the port" message. <br>
    Cause: You need to make sure that the previous container you launched is killed, before launching a new one that uses the same port.
    <br>
-   Solve:  for solving i followed
+   Solve:  run this command to get the container list
 ```
 docker container ls
 ```
-by running this you will get the container id, with container id, for stopping container run follwoing command with container id
+for stopping container run follwoing command with container id
 ```
 docker rm -f <container ID>
 ```
