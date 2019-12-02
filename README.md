@@ -1,7 +1,7 @@
-Dockrize node.js and Building Serverless App in Node.js with AWS Lambda
+Dockrize node.js App
 =============
 
-The main idea off this project, how to dockrize a node.js app and  build a simple Serverless application using AWS Lambda
+The main idea off this project, how to dockrize a node.js app
 
 Installation
 -----------
